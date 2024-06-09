@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Login</div>
+        <form action="redirect.php" method="post">
+            <div class="input-box">
+                <span class="details">Are you an Admin or a Student?</span>
+                <select name="user_type" id="user_type" required>
+                    <option value="">Select</option>
+                    <option value="admin">Admin</option>
+                    <option value="student">Student</option>
+                </select>
+            </div>
+            <div class="button">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

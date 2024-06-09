@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="width: 30vw;">
+        <div class="title">Registration</div>
+        <div class="content" style="display: flex;justify-content: space-between;width: 100%;">
+            Successfully registered!!!
+
+            <button id="redirectButton" class="action-button" style="background-color: linear-gradient(135deg, #71b7e6, #9b59b6);padding: 5px;" >OK</button>          
+        </div>
+    
+        <script>
+            // Add event listener to the button
+            document.getElementById("redirectButton").addEventListener("click", function() {
+                // Redirect to register.html
+                window.location.href = "register.html";
+            });
+        </script>
+</body>
+</html>
